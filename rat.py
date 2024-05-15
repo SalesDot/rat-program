@@ -30,6 +30,7 @@ def show_rat(selected_colour):
         angle = 0
         rotate_image()
         flash_text()
+        showing = True
 
 def rotate_image():
     global angle 
